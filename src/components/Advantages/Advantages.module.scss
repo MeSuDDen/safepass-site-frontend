@@ -1,0 +1,12 @@
+.advantages {
+  @apply rounded-[10px] bg-White min-h-[60px] flex items-center lg:px-7 px-4 justify-between mb-[10px];
+  .container {
+    @apply w-full py-10;
+    .companies {
+      @apply flex justify-between pt-8;
+      .company {
+        @apply hover:scale-105 transition-all
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.cardReviews {
+  @apply border border-DarkBlue py-10 px-7 rounded max-w-[350px];
+  .cardReviewsContainer {
+    @apply flex flex-col;
+    .cardReviewsStars {
+      @apply flex items-center mb-7;
+    }
+  }
+}
+
+
+.starFull {
+  width: 24px;
+  height: 24px;
+  fill: #080D27; /* Цвет заполненной звезды */
+  margin-right: 4px;
+}
+
+.starOutline {
+  width: 24px;
+  height: 24px;
+  stroke: #080D27; /* Цвет обводки пустой звезды */
+  fill: none; /* Прозрачная внутри */
+  stroke-width: 1.5px; /* Тонкая внутренняя обводка */
+  margin-right: 4px;
+}
+
+.starRating {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cardReviewsText {
+  @apply text-base text-justify w-full mb-7
+}
+
+.cardReviewsAuthor {
+  @apply flex items-center
+}
+
+.cardReviewsAuthorImage {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cardReviewsAuthorContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardReviewsAuthorName {
+  @apply font-semibold text-base
+}
+
+.cardReviewsAuthorJob {
+  @apply font-light text-sm
+}
