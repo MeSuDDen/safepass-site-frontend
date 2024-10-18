@@ -5,6 +5,8 @@ import Header from "@/components/Header/Header";
 import Advantages from "@/components/Advantages/Advantages";
 import Prices from "@/components/Prices/Prices";
 import Reviews from "@/components/Reviews/Reviews";
+import ClickToAction from "@/components/ClickToAction/ClickToAction";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,8 @@ export default function RootLayout({
               <Advantages/>
               <Prices/>
               <Reviews/>
+              <ClickToAction/>
+              <Footer/>
               {children}
           </main>
       </body>

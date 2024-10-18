@@ -1,0 +1,34 @@
+.footer {
+  @apply rounded-[12px] lg:px-7 px-4 mb-[10px] py-10 bg-DarkBlue relative overflow-hidden;
+  .bgImage {
+    @apply absolute left-0 top-0 right-0 bottom-0 z-10;
+  }
+  .footerContainer {
+    @apply w-full flex justify-center flex-col items-center h-[450px] z-40;
+    .footerTopContainer {
+      @apply w-full flex justify-center flex-col items-center h-full z-40;
+      .footerHeading {
+        @apply text-4xl font-bold text-White max-w-[720px] text-center;
+      }
+      .footerText {
+        @apply text-sm text-White py-10;
+      }
+      .button {
+        @apply z-40
+      }
+    }
+    .footerBottomContainer {
+      @apply flex justify-between w-full z-40 h-10 items-center;
+      .footerBottomText {
+        @apply text-White text-sm font-light
+      }
+      .footerBottomsSocials {
+        @apply flex items-center gap-2
+      }
+      .footerBottomPrivacyLink {
+        @apply hover:opacity-100 opacity-70 text-White transition-all text-sm
+      }
+    }
+  }
+
+}

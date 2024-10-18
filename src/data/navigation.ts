@@ -7,7 +7,7 @@ export const navigationData:NavigationType[] = [
     },
     {
         name: 'Цены',
-        url: '/prices',
+        url: '#prices',
     },
     {
         name: 'Продукт',

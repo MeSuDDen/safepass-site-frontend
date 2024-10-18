@@ -1,8 +1,8 @@
 .prices {
+  @apply rounded-[10px] bg-DarkBlue min-h-[90px] lg:px-7 px-4 justify-between mb-[10px] py-10 relative overflow-hidden;
   .bgImage {
     @apply absolute left-0 top-0 z-10;
   }
-  @apply rounded-[10px] bg-DarkBlue min-h-[90px] lg:px-7 px-4 justify-between mb-[10px] py-10 relative overflow-hidden;
   .title {
     @apply text-White font-semibold text-4xl pt-10 w-96
   }

@@ -1,0 +1,18 @@
+.clickToAction {
+  @apply rounded-[12px] bg-White min-h-[90px] lg:px-7 px-4 mb-[10px] py-10 bg-gradient-to-br from-DarkBlue to-[#080d27d6];
+  .titleContainer {
+    @apply w-full flex justify-center pb-10;
+    .title {
+      @apply font-semibold text-5xl text-center max-w-[500px] text-White;
+    }
+  }
+  .textContainer {
+    @apply w-full flex justify-center pb-10;
+    .text {
+      @apply text-xl text-White max-w-[800px] text-justify;
+    }
+  }
+  .buttonContainer {
+    @apply w-full flex justify-center items-center gap-10;
+  }
+}

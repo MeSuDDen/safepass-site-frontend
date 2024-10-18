@@ -7,7 +7,7 @@ import PricesTitle from "@/components/Prices/components/Title/PricesTitle";
 export default function Prices() {
     return (
         <Layout>
-            <section className={style.prices}>
+            <section id={'prices'} className={style.prices}>
 
                 <BlockTitle title={'Тарифы'} isTransparent={false}/>
                 <PricesTitle title={'Простые и Гибкие Тарифы'}/>

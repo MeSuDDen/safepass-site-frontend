@@ -8,7 +8,7 @@ export default function HeaderButtons() {
             <Button type={'transparent'} url={'/auth/login'} style={'border border-DarkBlue text-DarkBlue md:block hidden'}>
                 Авторизироваться
             </Button>
-            <Button type={'dark'} url={'/auth/login'} style={'bg-DarkBlue text-White '}>
+            <Button type={'dark'} url={'/auth/login'} style={'bg-DarkBlue text-White'}>
                 Начать
             </Button>
         </div>
